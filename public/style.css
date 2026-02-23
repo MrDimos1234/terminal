@@ -1,22 +1,18 @@
-/* style.css */
-
-/* Full-page black background */
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
 }
 
-/* Centered square image */
-img {
-    width: 300px;       /* adjust size if needed */
-    height: 300px;      /* keep square */
-    object-fit: cover;
-    border: 2px solid #111;  /* subtle border for visibility */
-    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+#box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
 }
