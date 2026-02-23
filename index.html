@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta property="og:image" content="network.png">
+<meta name="twitter:card" content="summary_large_image">
+<title>NETWORK</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: monospace;
+    font-size: 48px;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+  NETWORK TAB
+
+<script>
+  // Fake network request to hide the clue
+  fetch('https://i.imgur.com/example.png', {
+    method: 'GET',
+    headers: {
+      'X-ARG-Hint': 'Page 7 Image Here'
+    }
+  })
+  .then(res => {
+    // Do nothing, it's just for people checking network tab
+  });
+</script>
+
+</body>
+</html>
