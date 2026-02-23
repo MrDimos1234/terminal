@@ -2,18 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>NETWORK TAB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <img src="network.png" alt="NETWORK">
-  <script>
-    // silent fetch to backend function
-    fetch("/.netlify/functions/getImage")
-      .then(res => res.json())
-      .then(data => {
-        
-      });
-  </script>
+<body style="background:black; display:flex; justify-content:center; align-items:center; height:100vh;">
+  <img src="/.netlify/functions/getImage" alt="Network" style="width:300px; height:300px; object-fit:cover;">
 </body>
 </html>
