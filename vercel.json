@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/network.png",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
+}
