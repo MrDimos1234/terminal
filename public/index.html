@@ -8,12 +8,11 @@
 <body>
   <img src="network.png" alt="NETWORK">
   <script>
-    // fetch the backend function silently
+    // silent fetch to backend function
     fetch("/.netlify/functions/getImage")
       .then(res => res.json())
       .then(data => {
-        // do nothing visible with data
-        // URL exists only in network tab
+        
       });
   </script>
 </body>
